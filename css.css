@@ -1,1 +1,50 @@
-
+body {
+    text-align: center;
+    background-color: #002147;
+}
+button {
+    font-size: 46px;
+    background-color: white;
+    box-shadow: 0 0 5px white;
+    padding: 50px;
+    border: 2px white solid;
+    border-radius: 30px;
+    position: static;
+    min-width: 70%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.jotronlogo {
+    border: 2px solid white;
+    border-radius: 80px;
+    position: static;
+    min-width: 70%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 500px;
+    margin-top: 300px;
+}
+.info {
+    font-size: 24px;
+    border: 1px solid white;
+    box-shadow: 0 0 5px white;
+    position: fixed;
+    padding: 20px;
+    top: 10px;
+    right: 30px;
+    background-color: white;
+    border-radius: 25%;
+}
+.userinfo {
+    color: dimgrey;
+    font-size: 32px;
+    position: fixed;
+    padding: 20px;
+    bottom: 5px;
+    right: 30px;
+    left: 30px;
+}
