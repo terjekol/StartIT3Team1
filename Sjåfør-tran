@@ -11,8 +11,9 @@
 
     <div class="sjaforhead">Sjåfør</div>
     <div class="sjafortop"></div>
-    <div class="backbuttonsymbol">&lt;&lt</div>
-    <a href="#"><div href="#" class="backbutton"></div></a>
+
+    <a href="#"><div class="backbuttonsymbol">&lt;&lt</div></a>
+    <a href="#"><div class="backbutton"></div></a>
     
 
   
