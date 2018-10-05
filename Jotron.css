@@ -3,8 +3,6 @@ body {
     text-align: center;
 }
 
-
-
 div.sjafortop {
     background-color: #00669B;
     width: 100%;
@@ -40,17 +38,18 @@ div.backbuttonsymbol {
     color: red;
     font-weight: bold;
     letter-spacing: -6px;
+    user-select: none;
 }
+
 div.sjaforhead {
     color: white;
     font-size: 76px;
     text-shadow: 0 0 10px black;
+    user-select: none;
     font-family: 'Franklin Gothic Medium';
     position: absolute;
     z-index: 2;
     left: 43%;
     top: 1%;
 }
-
-
 
