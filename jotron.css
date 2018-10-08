@@ -1,4 +1,7 @@
 
+body{
+  max-width: 360px;
+}
 div.sjafortop{
     background-color: #00669B;
     width: 360px;
@@ -50,7 +53,7 @@ div.container{
     width: 360px;
     height: 640px;
     border: solid 1px black;
-    position: absolute;
+    position: relative;    
 }
 #sjaforfor1{
     height: 448px;
@@ -174,4 +177,24 @@ div.Avlys2{
     padding-top: 8px;;
     position: absolute;
     font-family: 'Franklin Gothic Medium';
+}
+h1{
+  text-align: center;
+}
+#sjaforavtalerfredag, #sjaforavtalertorsdag, #sjaforavtaleronsdag, #sjaforavtalertirsdag, #sjaforavtalermandag{
+  border: solid 1px green;
+  padding: 8px;
+  margin: 8px;
+  font-family: 'Franklin Gothic Medium';
+  font-weight: bold;
+  font-size: 16px;
+}
+div.duharpassasjer{
+  background-color: limegreen;
+  float: right;
+  text-align: center;
+  width: 210px;
+  height: 34.1px;
+  margin-top: -7.8px;
+  vertical-align: middle;
 }
