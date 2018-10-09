@@ -1,50 +1,136 @@
 body {
     text-align: center;
     background-color: #002147;
+    font-family: 'Franklin Gothic Medium';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-button {
-    font-size: 46px;
-    background-color: white;
-    box-shadow: 0 0 5px white;
-    padding: 50px;
-    border: 2px white solid;
-    border-radius: 30px;
-    position: static;
-    min-width: 70%;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+textarea:focus, input:focus, button:focus {
+    outline: none;
+}
+.b1 {
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin: auto;
+    position: absolute center;
+    margin-top: 10vh;
+    min-width: 290px;
+    max-width: 20vw;
+
+}
+#wrongpass {
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    left: 5%;
+    right: 5%;
     margin-top: 10px;
-    margin-bottom: 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+.login {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+}
+.regi {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+}
+.loginbox {
+    position: absolute center;
+    margin: auto;
+    right: 10px;
+    font-size: 26px;
+    margin-top: 10vh;
+    color: white;
+
+}
+input#usernameTxt {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: groove black 2px;
+    box-shadow: 0 0 5px black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+input#passwordTxt {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: groove black 2px;
+    box-shadow: 0 0 5px black;
+    margin-top: 5px;
 }
 .jotronlogo {
-    border: 2px solid white;
-    border-radius: 80px;
-    position: static;
-    min-width: 70%;
+    background-color: white;
+    border: groove white 2px;
+    box-shadow: 0 0 10px black;
+    border-radius: 15px;
+    position: absolute center;
+    margin-top: 2vh;
     max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 500px;
-    margin-top: 300px;
+    max-height: 30vh;
 }
 .info {
     font-size: 24px;
-    border: 1px solid white;
-    box-shadow: 0 0 5px white;
-    position: fixed;
-    padding: 20px;
-    top: 10px;
-    right: 30px;
+    border: 1px groove black;
+    box-shadow: 0 0 3px black;
+    text-shadow: 0 0 1px black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 0px 10px 0 10px;
     background-color: white;
-    border-radius: 25%;
+    border-radius: 50%;
+    text-align: center;
+}
+button:hover {
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    
+}
+.passreq:hover, .userinfo:hover, .info:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
 }
 .userinfo {
-    color: dimgrey;
-    font-size: 32px;
-    position: fixed;
-    padding: 20px;
-    bottom: 5px;
-    right: 30px;
-    left: 30px;
+    color: white;
+    font-size: 15px;
+    position: static;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 20px;
+}
+.passreq {
+    font-size: 15px;
+    position: static;
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 5px;
 }
