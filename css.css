@@ -134,3 +134,52 @@ button:hover {
     display: inline-block;
     margin-top: 5px;
 }
+div.sjafortop {
+    background-color: #00669B;
+    width: 100%;
+    height: 120px;
+    border: solid 1px black;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.backbutton {
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    opacity: 0.5;
+    width: 120px;
+    height: 80px;
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    border: solid 1px #00669B;
+    border-radius: 30%;
+}
+
+div.backbuttonsymbol {
+    position: absolute;
+    z-index: 3;
+    top: 30px;
+    left: 50px;
+    font-size: 52px;
+    color: red;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
+}
+
+div.sjaforhead {
+    color: white;
+    font-size: 76px;
+    text-shadow: 0 0 10px black;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 43%;
+    top: 1%;
+}
