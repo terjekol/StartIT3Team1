@@ -13,7 +13,7 @@ function showfrontPage() {
             Password<br />
             <input type="password" placeholder="Password" id="passwordTxt" /><br />
         </div>
-        <div class="passreq" onclick="showPassReq()">Forgott password?</div>
+        <div class="passreq" onclick="showpassReq()">Forgott password?</div>
 
         <div class="b1">
             <button class="login" onclick="dologInCheck()">Login</button><br>
