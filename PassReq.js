@@ -1,4 +1,4 @@
-function showpassReq() {
+function showPassReq() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = ` 
 
