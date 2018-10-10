@@ -5,7 +5,7 @@ function showfrontPage() {
     <div class="frontpage">
         <div class="info" onclick="showInfoPage()">i</div>
 
-        <img class="jotronlogo" src="jotron_logo.jpg"><br>
+        <img class="jotronlogo" src="Jotron_logo.jpg"><br>
         <div id=wrongpass></div>
         <div class="loginbox">
             Username<br />
