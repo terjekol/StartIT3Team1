@@ -1,12 +1,13 @@
-function showPassReq() {
+function showpassReq() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = ` 
 
+    
     <div class="backheadpassreq">Password recovery</div>
     <div class="backtop"></div>
 
-    <div onclick="showfrontPage()" class="backbuttonsymbol">&lt;&lt</div>
-    <div onclick="showfrontPage()" class="backbutton"></div>
+    <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
+    <a href="index.html"><div class="backbutton"></div></a>
 
 
     <div class="passreqfieldbox">
@@ -17,5 +18,7 @@ function showPassReq() {
             <button class="preqfiledsub" type="submit">Submit</button>
         </form>
     </div>
-`;
+
+    `;
+
 }
