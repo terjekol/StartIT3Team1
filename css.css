@@ -134,11 +134,42 @@ button:hover {
     display: inline-block;
     margin-top: 5px;
 }
-div.sjafortop {
-    background-color: #00669B;
+.preqfiledsub {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    margin-top: 5vh;
+}
+.passreqfieldbox {
+    position: absolute center;
+    margin: auto;
+    right: 10px;
+    font-size: 26px;
+    margin-top: 30vh;
+    color: white;
+}
+input#passreqfield {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: groove black 2px;
+    box-shadow: 0 0 5px black;
+    margin-top: 5px;
+    min-width: 290px;
+    max-width: 20vw;
+    margin-top: 5vh;
+}
+div.backtop {
+    background-color: white;
     width: 100%;
-    height: 120px;
-    border: solid 1px black;
+    height: 80px;
+    border-bottom: groove 3px black;
     box-shadow: 0 0 10px black;
     position: absolute;
     top: 0;
@@ -148,38 +179,84 @@ div.sjafortop {
 
 div.backbutton {
     background-color: white;
-    box-shadow: 0 0 10px black;
-    opacity: 0.5;
-    width: 120px;
-    height: 80px;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
     position: absolute;
     z-index: 2;
-    top: 20px;
-    left: 20px;
-    border: solid 1px #00669B;
-    border-radius: 30%;
+    top: 15px;
+    left: 3px;
+    border: groove 2px black;
+    border-radius: 20%;
 }
 
 div.backbuttonsymbol {
     position: absolute;
     z-index: 3;
-    top: 30px;
-    left: 50px;
-    font-size: 52px;
-    color: red;
+    top: 24px;
+    left: 7px;
+    font-size: 32px;
+    color: darkorange;
     font-weight: bold;
     letter-spacing: -6px;
     user-select: none;
 }
 
-div.sjaforhead {
-    color: white;
-    font-size: 76px;
-    text-shadow: 0 0 10px black;
+div.backheadpassreq {
+    color: black;
+    font-size: 34px;
     user-select: none;
     font-family: 'Franklin Gothic Medium';
     position: absolute;
     z-index: 2;
-    left: 43%;
-    top: 1%;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px; 
+}
+div.dorp {
+    color: white;
+    font-size: 34px;
+    margin-top: 30vh;
+    
+}
+#dorpbuttA {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute center;
+    min-width: 170px;
+    max-width: 10vw;
+}
+#dorpbuttB {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20px;
+    position: absolute center;
+    min-width: 170px;
+    max-width: 10vw;
+}
+#logoutbutt {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40vh;
+    position: absolute center;
+    min-width: 300px;
+    max-width: 10vw;
+
 }
