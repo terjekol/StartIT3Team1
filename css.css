@@ -185,7 +185,7 @@ div.backbutton {
     position: absolute;
     z-index: 2;
     top: 15px;
-    left: 3px;
+    left: 5px;
     border: groove 2px black;
     border-radius: 20%;
 }
@@ -194,7 +194,7 @@ div.backbuttonsymbol {
     position: absolute;
     z-index: 3;
     top: 24px;
-    left: 7px;
+    left: 10px;
     font-size: 32px;
     color: darkorange;
     font-weight: bold;
