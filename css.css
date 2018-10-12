@@ -260,3 +260,59 @@ div.dorp {
     max-width: 10vw;
 
 }
+div.backheadaccmake {
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px;
+}
+div.wrapacc {
+    color: white;
+    margin-top: 5vh;
+    position: absolute center;
+    margin-top: 15vh;
+    font-size: 17px;
+}
+input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pickupTxt, #passwordrepreTxt {
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: groove black 2px;
+    box-shadow: 0 0 5px black;
+    margin: auto;
+    right: 10px;
+    font-size: 26px;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+.terms {
+    font-size: 14px;
+}
+#regsub {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    margin-top: 1vh;
+}
+.head1 {
+    margin-bottom: 2vh;
+    text-decoration: underline;
+}
+#googelmapreg {
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    color: darkorange;
+}
