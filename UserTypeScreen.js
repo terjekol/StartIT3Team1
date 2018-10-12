@@ -3,7 +3,7 @@ function showUserTypeScreen() {
     mainContentDiv.innerHTML = `
 
   <div></div>
-   <div class="dorp">Are you a driver or a passanger?</div>
+   <div class="dorp">Are you a driver or a passenger?</div>
    <div class="dorpbutt">
        <button id="dorpbuttA">Driver</button>
        <button id="dorpbuttB">Passanger</button>
