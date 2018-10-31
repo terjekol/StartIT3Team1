@@ -1,0 +1,46 @@
+﻿body {
+    
+    text-align: center;
+    background-color: #002147;
+    background-position:center;
+    font-family: 'Franklin Gothic Medium';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+
+#request {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: white;
+    /*background-color: #002147;*/
+}
+#yesButton {
+    background-color: #FF0000;
+    border: none;
+    color: black;
+    padding: 30px 52px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 50px 50px;
+    /*margin-bottom: 70px;*/
+    cursor: pointer;
+}
+#NoButton {
+    background-color: #14B214;
+    border: none;
+    color: black;
+    padding: 30px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
