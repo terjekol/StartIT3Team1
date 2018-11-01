@@ -316,3 +316,75 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     margin-top: 1vh;
     color: darkorange;
 }
+.m1 {
+    background-color: #00669B;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size:500%;
+}
+.m2 {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    cursor: pointer;
+}
+.m3 {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    cursor: pointer;
+}
+.m4 {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    cursor: pointer;
+}
+.m5 {
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    text-align: center;
+    position: absolute center;
+    min-width: 290px;
+    max-width: 20vw;
+    cursor: pointer;
+}
+.m6 {
+    text-align: center;
+    margin-top: 25%;
+    border: groove black 2px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 36px;
+    min-width: 290px;
+    max-width: 20vw;
+    cursor: pointer;
+}
