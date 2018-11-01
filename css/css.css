@@ -337,6 +337,7 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     cursor: pointer;
 }
 .m3 {
+    margin-left: 2vw;
     border: groove black 2px;
     background-color: white;
     border-radius: 10px;
@@ -363,6 +364,7 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     cursor: pointer;
 }
 .m5 {
+    margin-left: 2vw;
     border: groove black 2px;
     background-color: white;
     border-radius: 10px;
