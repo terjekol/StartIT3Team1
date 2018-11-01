@@ -390,3 +390,136 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     max-width: 20vw;
     cursor: pointer;
 }
+div.driverhead {
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px;
+}
+.pickuplan {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    color: white;
+    font-size: 32px;
+}
+div.backheaddriverapp {
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 22px;
+    right: 10px;
+    top: 3.5vh;
+    min-width: 200px;
+    
+}
+div.appointmentsh1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 34px;
+    margin-top: 14vh;
+}
+div.appointmentbox1, .appointmentbox2, .appointmentbox3, .appointmentbox4, .appointmentbox5 {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5px;
+
+}
+div.appointmentbox1 {
+    margin-top: 14px;
+    background-color: lime;
+}
+div.weekback {
+    position: absolute;
+    z-index: 3;
+    top: 538px;
+    left: 45px;
+    font-size: 32px;
+    color: darkorange;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
+}
+div.weeknext {
+    position: absolute;
+    z-index: 3;
+    top: 538px;
+    right: 50px;
+    font-size: 32px;
+    color: darkorange;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
+}
+div.weekback2 {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 530px;
+    left: 40px;
+    border: groove 2px black;
+    border-radius: 20%;
+}
+div.weeknext2 {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 530px;
+    right: 40px;
+    border: groove 2px black;
+    border-radius: 20%;
+}
+div.colorexp2 {
+    color: lime;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+}
+div.colorexp {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+
+}
+button.finddriver {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+    min-width: 300px;
+
+}
+b.bcolor {
+    color:lime;
+}
