@@ -7,13 +7,9 @@
     background-color: #002147;
     text-align: center;
     height: 500px;
-    /*border: 1px solid #002147;*/
+    
     box-sizing: border-box;
-    /*width: 300px;*/
-    /*height: 400px;*/
-    /*border: 1px solid #002147;*/
-    /*margin-top: 350px;
-    padding-top: 50px;*/
+   
     margin-top:250px;
 }
 
@@ -28,8 +24,7 @@
     font-size: 50px;
     
     margin-top: 70px;
-    
-    /*margin-bottom: 70px;*/
+
     cursor: pointer;
 }
 
@@ -42,7 +37,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
-    /*margin-left: 550px;
-    margin-top: 1px;*/
+    
     cursor: pointer;
 }
