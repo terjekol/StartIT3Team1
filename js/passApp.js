@@ -2,8 +2,8 @@ function showPassengerAppointment() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
     <div class="backtop"></div>
-    <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-    <a href="index.html"><div class="backbutton"></div></a>
+    <div onclick="showMeny()" class="backbuttonsymbol">&lt;&lt</div>
+    <div onclick="showMeny()" class="backbutton"></div>
     <div class="backheaddriverapp">Passenger</div>
     <div class="appointmentsh1">Your active appointments</div>
     <div class="appointmentbox1">Monday</div>
