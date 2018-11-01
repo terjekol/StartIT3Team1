@@ -6,7 +6,7 @@ function showMeny() {
         <button onclick="showPassengerAppointment()" class="m3">Passanger</button></br></br>
         <button class="m4">Profile</button>
         <button class="m5">History</button></br>
-        <button class="m6">Log out</button>
+        <a><button href="index.html" class="m6">Log out</button></a>
 
         `;
 }
