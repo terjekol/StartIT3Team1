@@ -1,7 +1,13 @@
 function showMeny() {
+<<<<<<< HEAD
     document.getElementById('mainContent').innerHTML = `
 
         <div class="m1">Menu</div></br>
+=======
+    var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.innerHTML = `
+    <div class="m1">Menu</div></br>
+>>>>>>> bc6bbcd07b352a6edc1a8f06a4e040248afeec27
 
         <button class="m2">Driver</button>
         <button onclick="showPassengerAppointment()" class="m3">Passanger</button></br></br>

@@ -1,3 +1,7 @@
+function cancellTrip() { 
+var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.innerHTML = `
+
 <div class="backtop"></div>
     <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
     <a href="index.html"><div class="backbutton"></div></a>
@@ -53,3 +57,4 @@
             max-width: 10vw;
         }
     </style>
+`}
