@@ -1,6 +1,6 @@
-function appointment()
-{
-    document.getElementById('mainContent').innerHTML = `      
+function appointment() {
+    var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.innerHTML = `     
 
     <div class="backtop"></div>        
     <div class="backheadpassreq">   Driver    </div>
