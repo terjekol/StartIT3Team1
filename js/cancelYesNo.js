@@ -46,4 +46,5 @@ function cancelYesNO() {
         min-width: 170px;
         max-width: 10vw;
         }
-`}
+`;
+}
