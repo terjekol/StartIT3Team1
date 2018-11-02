@@ -1,3 +1,6 @@
+function cancelYesNO() {
+    var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.innerHTML = `
 <link rel="stylesheet" type="text/css" href="css.css">
     <div class="backtop"></div>
     <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
@@ -43,3 +46,5 @@
         min-width: 170px;
         max-width: 10vw;
         }
+`;
+}

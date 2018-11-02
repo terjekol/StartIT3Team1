@@ -1,4 +1,4 @@
-function appointment() {
+function driverApp() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `     
 
@@ -27,5 +27,5 @@ function appointment() {
             <div class="driver17"><img src=bildetest.png class="bildete"></div>
             <div class="driver18">Ellen G. Hammsund <br> Tønsberg 10 Tønsberg</div>
     </div> 
-    `
+    `;
 }
