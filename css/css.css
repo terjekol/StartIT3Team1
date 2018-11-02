@@ -753,5 +753,45 @@ b.bcolor {
     max-width: 60px;
     align-content: center;
 }
+.request {
+    font-family: 'Franklin Gothic Medium';
+    font-size:70px;
+    color: white;
+    background-color: #002147;
+    text-align: center;
+    height: 500px;
+    
+    box-sizing: border-box;
+   
+    margin-top:250px;
+}
+
+#yesButton {
+    background-color: #FF0000;
+    border: none;
+    color: black;
+    padding: 30px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    
+    margin-top: 70px;
+
+    cursor: pointer;
+}
+
+#NoButton {
+    background-color: #14B214;
+    border: none;
+    color: black;
+    padding: 30px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 50px;
+    
+    cursor: pointer;
+}
 
 >>>>>>> Brage:css.css
