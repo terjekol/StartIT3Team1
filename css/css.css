@@ -304,14 +304,16 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     margin-top: 1vh;
     color: darkorange;
 }
-<<<<<<< HEAD:css/css.css
+
+
 .m1 {
     background-color: #00669B;
     padding: 15px;
-    color: white;
     text-align: center;
-    font-size:500%;
+    font-size: 50px;
+    color: white;
 }
+
 .m2 {
     border: groove black 2px;
     background-color: white;
