@@ -52,4 +52,5 @@ var mainContentDiv = document.getElementById('mainContent');
         max-width: 10vw;
     }
     </style>
-`}
+`;
+}
