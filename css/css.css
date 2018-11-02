@@ -796,7 +796,6 @@ b.bcolor {
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
-    
     cursor: pointer;
 }
 div.drive {
@@ -804,14 +803,7 @@ div.drive {
     font-size: 34px;
     margin-top: 30vh;
     margin-bottom: -35vh;
-        }
-
-body {
-    background - color: #002147;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium';
-    user-select: none;
-        }
+}
 #knapp {
     background - color: white;
     border: groove black 2px;             
@@ -824,4 +816,4 @@ body {
     margin-bottom: 30vh;
     min-width: 300px;
     max-width: 10vw;          
-        }
+}
