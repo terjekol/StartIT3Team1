@@ -1,4 +1,4 @@
-function appointment() {
+function driverApp() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `     
 
