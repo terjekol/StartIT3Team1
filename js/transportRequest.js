@@ -7,5 +7,6 @@ function showTransportReguest() {
         Transport Request<br/>
         <button id="yesButton">Yes</button>
         <button id="NoButton">No</button>
-    </div>`;
+    </div>
+`;
 }
