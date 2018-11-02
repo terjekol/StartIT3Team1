@@ -1,4 +1,4 @@
-function cancellTrip() { 
+function cancelTrip() { 
 var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
