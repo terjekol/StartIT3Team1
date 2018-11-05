@@ -910,9 +910,7 @@ div.sikker {
 
 .driverHistory {
     background-color: white;
-=======
     background-color: red;
->>>>>>> 8f76afae841d3a5cff05ac5c2fb2382c33f67c55
     border: groove black 2px;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
