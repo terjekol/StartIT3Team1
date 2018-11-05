@@ -850,20 +850,30 @@ div.sikker {
         }
 
 
+#historyWo {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
 .history {
     background-color: #00669B;
-    padding: 15px;
-    text-align: center;
-    font-size: 30px;
-    color: white;
-    
+    height: 60px;
+    padding-top: 15px;
+
 }
 
 #icon {
     float: left;
     color: #FF8800;
+    height: 50px;
+    margin-left: 6px;
     cursor: pointer;
- 
+    display: block;
 }
 
 #History {
