@@ -2,7 +2,7 @@
 function showTheHistory() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
-<div id="historyWo">history</div>
+<div id="historyWo">History</div>
    
     <div class="history">
         
