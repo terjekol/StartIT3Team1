@@ -1,3 +1,4 @@
+var mainContentDiv = document.getElementById('mainContent');
 function showfrontPage() {
     mainContentDiv.innerHTML = `
 
