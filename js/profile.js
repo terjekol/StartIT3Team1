@@ -1,4 +1,4 @@
-function showprofilePage() {
+function showProPage() {
     mainContentDiv.innerHTML = `
   
    
@@ -24,9 +24,4 @@ function showprofilePage() {
     </div>
     
     `;
-}
-
-function editProfile()
-{
-    profileEdit();
 }
