@@ -1,4 +1,5 @@
 function showProPage() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
   
    
