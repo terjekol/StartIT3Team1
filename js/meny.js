@@ -1,5 +1,5 @@
 function showMeny() {
-    document.getElementById('mainContent').innerHTML = `
+    mainContentDiv.innerHTML = `
 
     <div class="m1"></div>
     <div class="m11">Menu</div>
