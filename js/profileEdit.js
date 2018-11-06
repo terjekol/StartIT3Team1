@@ -21,5 +21,5 @@ function profileEdit()
 }
 function saveProfile()
 {
-    profile();
+    showProfile();
 }
