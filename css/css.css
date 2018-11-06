@@ -8,8 +8,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 0px;
-    margin: 0px;
 }
 textarea:focus, input:focus, button:focus {
     outline: none;
@@ -306,14 +304,30 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     margin-top: 1vh;
     color: darkorange;
 }
-
-
 .m1 {
-    background-color: #00669B;
-    padding: 15px;
-    text-align: center;
-    font-size: 50px;
-    color: white;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: groove 3px black;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+}
+.m11 {
+    color: darkorange;
+    font-size: 56px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 1%;
+    min-width: 200px;
+    text-shadow: 0 0 2px black;
 }
 
 .m2 {
@@ -328,7 +342,9 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     min-width: 290px;
     max-width: 20vw;
     cursor: pointer;
+    margin-top: 15vh;
 }
+
 .m3 {
     margin-left: 1vw;
     border: groove black 2px;
@@ -342,7 +358,9 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     min-width: 290px;
     max-width: 20vw;
     cursor: pointer;
+    margin-top: 2vh;
 }
+
 .m4 {
     border: groove black 2px;
     background-color: white;
@@ -355,7 +373,9 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     min-width: 290px;
     max-width: 20vw;
     cursor: pointer;
+    margin-top: 2vh;
 }
+
 .m5 {
     margin-left: 1vw;
     border: groove black 2px;
@@ -369,10 +389,12 @@ input#usernameregTxt, #emailTxt, #passwordregTxt, #homeadressTxt, #mobilTxt, #pi
     min-width: 290px;
     max-width: 20vw;
     cursor: pointer;
+    margin-top: 2vh;
 }
+
 .m6 {
     text-align: center;
-    margin-top: 25%;
+    margin-top: 34vh;
     border: groove black 2px;
     background-color: white;
     border-radius: 10px;
@@ -441,7 +463,7 @@ div.appointmentbox1 {
 div.weekback {
     position: absolute;
     z-index: 3;
-    top: 538px;
+    top: 520px;
     left: 45px;
     font-size: 32px;
     color: darkorange;
@@ -452,7 +474,7 @@ div.weekback {
 div.weeknext {
     position: absolute;
     z-index: 3;
-    top: 538px;
+    top: 520px;
     right: 50px;
     font-size: 32px;
     color: darkorange;
@@ -467,7 +489,7 @@ div.weekback2 {
     height: 50px;
     position: absolute;
     z-index: 2;
-    top: 530px;
+    top: 512px;
     left: 40px;
     border: groove 2px black;
     border-radius: 20%;
@@ -479,7 +501,7 @@ div.weeknext2 {
     height: 50px;
     position: absolute;
     z-index: 2;
-    top: 530px;
+    top: 512px;
     right: 40px;
     border: groove 2px black;
     border-radius: 20%;
@@ -508,16 +530,14 @@ button.finddriver {
     padding-bottom: 10px;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
     min-width: 300px;
 
 }
 b.bcolor {
     color:lime;
 }
-<<<<<<< HEAD
-=======
-=======
+
 .lele 
 { 
     background-color: white;
@@ -760,39 +780,44 @@ b.bcolor {
 }
 .request {
     font-family: 'Franklin Gothic Medium';
-    font-size:70px;
+    font-size: 40px;
     color: white;
     background-color: #002147;
     text-align: center;
-    height: 500px;
-    
+    height: 300px;
     box-sizing: border-box;
-   
-    margin-top:250px;
+    margin-top: 150px;
 }
 
 #yesButton {
     background-color: #FF0000;
     border: none;
     color: black;
-    padding: 30px 53px;
+    padding: 25px 44px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+<<<<<<< HEAD
     font-size: 50px;
     
     margin-top: 70px;
 
+=======
+    font-size: 35px;
+    margin-top: 50px;
+    cursor: pointer;
+>>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
 }
 
 #NoButton {
     background-color: #14B214;
     border: none;
     color: black;
-    padding: 30px 62px;
+    padding: 25px 52px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+<<<<<<< HEAD
     font-size: 50px;
    
 }
@@ -839,11 +864,26 @@ div.d1 {
 div.d2, .d3, .d4, .d5, .d6 {
     background-color: white;
     border: groove black 2px;
+=======
+    font-size: 35px;
+    cursor: pointer;
+}
+div.drive {
+    color: white;
+    font-size: 34px;
+    margin-top: 30vh;
+    margin-bottom: -35vh;
+}
+#knapp {
+    background-color: white;
+    border: groove black 2px;             
+>>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     color: black;
     font-size: 32px;
     text-align: center;
+<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5vw;
@@ -927,12 +967,30 @@ div.color11 {
 
 button.finddriver13 {
     background-color: white;
+=======
+    margin-top: 40vh;
+    margin-bottom: 30vh;
+    min-width: 300px;
+    max-width: 10vw;          
+}
+
+div.sikker {
+    color: white;
+    font-size: 34px;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+   
+}
+#knappA {
+    background-color: green;
+>>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     border: groove black 2px;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     color: black;
     font-size: 32px;
     text-align: center;
+<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5vw;
@@ -976,7 +1034,347 @@ div.backbuttonsymbol16 {
     font-weight: bold;
     letter-spacing: -6px;
     user-select: none;
+=======
+    margin-top: 20px;
+    min-width: 170px;
+    max-width: 10vw;
+}
+#knappB 
+{
+        background-color: red;
+        border: groove black 2px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px black;
+        color: black;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 20px;
+        min-width: 170px;
+        max-width: 10vw;
+}
+
+#historyWo {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.history {
+    background-color: #00669B;
+    height: 60px;
+    padding-top: 15px;
+    
+}
+
+#icon {
+    float: left;
+    color: #FF8800;
+    height: 50px;
+    margin-left: 6px;
+>>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     cursor: pointer;
+    display: block;
+}
+
+#History {
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+#line {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.driverHistory {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 20vh;
+    min-width: 300px;
+}
+
+.PassengerHistory {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 7vh;
+    min-width: 300px;
+}
+
+.ContributorsHistory {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 7vh;
+    min-width: 300px;
+}
+.profileInfo
+{
+    color: black;
+}
+.profileBilde
+{
+    max-width: 220px;
+    max-height: 300px;
+    background: white;
+    padding: 3px;
+    border-radius: 100%;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    border: solid 1px #707070;
+    z-index: 1;
+}
+.backgroundkaos
+{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 600px;
+    left: 0px;
+    top: 200px;
+    z-index: -1;
+}
+.profileNavn
+{
+    grid-area: profileNavn;
+    font-size: 20px;
+    color: black;
+    padding: 10px 30px;
+    z-index: 1;
+}
+ .profile1
+{
+    grid-area: profile1;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profile2
+{
+    grid-area: profile2;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profile3
+{
+    grid-area: profile3;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profile4
+{
+    grid-area: profile4;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 5px 30px;
+}
+.profile5
+{
+    grid-area: profile5;
+    border: solid #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 90px;
+    margin-top: 90px;
+    
+}
+.ProfileBoks 
+{
+    max-height: 900px;
+    overflow-y:auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+        'profileNavn profileNavn'
+        'profile1 profile1'
+        'profile2 profile2'
+        'profile3 profile3'
+        'profile4 profile4'
+        'profile5 profile5';
+    padding-bottom: 40px;
+    background-color: none;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: auto;
+    margin-top: 0;
+    background-color: white;
+ }
+.ProfileBoks > div 
+{
+    text-align: center;
+    background-color: none;
+}
+.profilePhone
+{
+    grid-area: profilePhone;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileEmail
+{
+    grid-area: profileEmail;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profilePickup
+{
+    grid-area: profilePickup;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileStatus
+{
+    grid-area: profileStatus;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profilePassword
+{
+    grid-area: profilePassword;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileConfirm
+{
+    grid-area: profileConfirm;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileSave
+{
+    grid-area: profileSave;
+    border: solid #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 90px;
+    margin-top: 90px;
+}
+
+
+.ProfileEdit 
+{
+    max-height: 900px;
+    overflow-y:auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+        'profilePhone profilePhone'
+        'profileEmail profileEmail'
+        'profilePickup profilePickup'
+        'profileStatus profileStatus'
+        'profilePassword profilePassword'
+        'profileConfirm profileConfirm'
+        'profileSave profileSave';
+    padding-bottom: 40px;
+    background-color: none;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: auto;
+    margin-top: 0;
+    background-color: white;
+ }
+.ProfileEdit > div 
+{
+    text-align: center;
+    background-color: none;
+}
+.backheadpassreq
+{
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px; 
 }
 b.color12 {
     color: lime;
