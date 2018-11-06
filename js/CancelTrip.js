@@ -1,4 +1,5 @@
 function cancelTrip() { 
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
 <div class="backtop"></div>
