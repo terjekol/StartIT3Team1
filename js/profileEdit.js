@@ -1,6 +1,5 @@
-function profileEdit()
-{
-    document.getElementById('mainContent').innerHTML = `        
+function profileEdit() {
+        mainContentDiv.innerHTML = `
         <div class="backtop"></div>        
         <div class="backheadpassreq">   Profile    </div>
         <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
