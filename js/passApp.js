@@ -1,4 +1,5 @@
 function showPassengerAppointment() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
     <div class="backtop"></div>
     <div onclick="showMeny()" class="backbuttonsymbol">&lt;&lt</div>
