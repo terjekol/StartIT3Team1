@@ -1,7 +1,6 @@
 function showProfile() {
-    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
-    document.getElementById('mainContent').innerHTML = `    
+  
    
  <div class="backtop"></div>        
  <div class="backheadpassreq">   Profile    </div>
