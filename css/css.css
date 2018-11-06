@@ -1054,3 +1054,105 @@ div.sikker {
     text-align: center;
     background-color: none;
 }
+.profilePhone
+{
+    grid-area: profilePhone;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileEmail
+{
+    grid-area: profileEmail;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profilePickup
+{
+    grid-area: profilePickup;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileStatus
+{
+    grid-area: profileStatus;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profilePassword
+{
+    grid-area: profilePassword;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileConfirm
+{
+    grid-area: profileConfirm;
+    color: #B2B2B2;
+    border-style: none none solid none;
+    border-color: #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 30px;
+}
+.profileSave
+{
+    grid-area: profileSave;
+    border: solid #707070;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 90px;
+    margin-top: 90px;
+}
+
+
+.ProfileEdit 
+{
+    max-height: 900px;
+    overflow-y:auto;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas:
+        'profilePhone profilePhone'
+        'profileEmail profileEmail'
+        'profilePickup profilePickup'
+        'profileStatus profileStatus'
+        'profilePassword profilePassword'
+        'profileConfirm profileConfirm'
+        'profileSave profileSave';
+    padding-bottom: 40px;
+    background-color: none;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0; 
+    margin-bottom: auto;
+    margin-top: 0;
+    background-color: white;
+ }
+.ProfileEdit > div 
+{
+    text-align: center;
+    background-color: none;
+}
