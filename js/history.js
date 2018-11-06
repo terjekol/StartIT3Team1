@@ -4,8 +4,8 @@ function showTheHistory() {
     mainContentDiv.innerHTML = `
 
 <div class="backtop"></div>
-    <div onclick="showMeny()" class="backbuttonsymbol">&lt;&lt</div>
-    <div onclick="showMeny()" class="backbutton"></div>
+    <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div>
+    <div onclick="showMenu()" class="backbutton"></div>
 
 
     <div id="History">History</div>
