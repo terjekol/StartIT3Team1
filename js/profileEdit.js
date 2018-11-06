@@ -1,30 +1,6 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Jodrive</title>
-    <link rel="stylesheet" type="text/css" href="css/css.css">
-    <script src="js/script.js"></script>
-    <script src="js/UserInfo.js"></script>
-    <script src="js/passReq.js"></script>
-    <script src="js/meny.js"></script>
-    <script src="js/RegPage.js"></script>
-    <script src="js/InfoPage.js"></script>
-    <script src="js/frontPage.js"></script>
-    <script src="js/DrivingWith.js"></script>
-    <script src="js/CancelTrip.js"></script>
-    <script src="js/cancelYesNo.js"></script>
-    <script src="js/passApp.js"></script>
-    <script src="js/UserTypeScreen.js"></script>
-    <script src="js/driverApp.js"></script>
-    <script src="js/transportRequest.js"></script>
-    <script src="js/history.js"></script>    
-    <script src="js/profile.js"></script>
-</head>
-    
-<body>  
-    <div id="mainContent">
+function profileEdit()
+{
+    document.getElementById('mainContent').innerHTML = `        
         <div class="backtop"></div>        
         <div class="backheadpassreq">   Profile    </div>
         <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
@@ -39,12 +15,11 @@
                 <div class="profileStatus"><input type="text" name="Status" placeholder="Driver Status" style="border: none; text-align: center;"></div>
                 <div class="profilePassword"><input type="password" name="Password" placeholder="New Password" style="border: none; text-align: center;"></div>
                 <div class="profileConfirm"><input type="password" name="PassAgain" placeholder="New Password Again" style="border: none; text-align: center;"></div>
-                <div class="profileSave">Save Changes</div>
+                <div class="profileSave" onclick="profile()">Save Changes</div>
         </div>
-    </div>
-    <script>
-    </script>
-
-
-</body>
-</html>
+    `;
+}
+function saveProfile()
+{
+    profile();
+}

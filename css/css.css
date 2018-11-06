@@ -1156,3 +1156,16 @@ div.sikker {
     text-align: center;
     background-color: none;
 }
+.backheadpassreq
+{
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px; 
+}
