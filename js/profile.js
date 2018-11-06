@@ -1,4 +1,4 @@
-function profile()
+function showProfile()
 {
     document.getElementById('mainContent').innerHTML = `    
     <div class="backtop"></div>        
