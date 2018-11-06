@@ -1,14 +1,18 @@
-function showProfile()
-{
+function showProfile() {
+    var mainContentDiv = document.getElementById('mainContent');
+    mainContentDiv.innerHTML = `
     document.getElementById('mainContent').innerHTML = `    
-    <div class="backtop"></div>        
-    <div class="backheadpassreq">   Profile    </div>
-    <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-    <a href="index.html"><div class="backbutton"></div></a>
+   
+ <div class="backtop"></div>        
+ <div class="backheadpassreq">   Profile    </div>
+ <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
+ <a href="index.html"><div class="backbutton"></div></a>
+        
     <div class="lele2"><h2></h2></div>    
     <div class="backgroundkaos"></div>      
     <div class="profileBilde"><img src=img/bildetest.png style="max-width: 230px; max-height: 250px;"></div>
-    <div class="ProfileBoks">       
+    <div class="ProfileBoks">  
+        
             <div id="Navn" class="profileNavn">Houng Dajin</div>
             <div class="profile1">Phone Number<br><div id="nummer" class="profileInfo">47 33 24 99</div></div>
             <div class="profile2">Email <br><div id="mail" class="profileInfo">Tester@GetAcademy.no</div></div>
@@ -17,8 +21,12 @@ function showProfile()
             <div id="lar"></div>
             <div id="lar2"></div>
             <div class="profile5" onclick="editProfile()">Edit Profile</div>
-    </div>`;
+    
+    </div>
+    
+    `;
 }
+
 function editProfile()
 {
     profileEdit();
