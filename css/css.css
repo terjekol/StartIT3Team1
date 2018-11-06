@@ -757,29 +757,25 @@ b.bcolor {
 }
 .request {
     font-family: 'Franklin Gothic Medium';
-    font-size:70px;
+    font-size: 40px;
     color: white;
     background-color: #002147;
     text-align: center;
-    height: 500px;
-    
+    height: 300px;
     box-sizing: border-box;
-   
-    margin-top:250px;
+    margin-top: 150px;
 }
 
 #yesButton {
     background-color: #FF0000;
     border: none;
     color: black;
-    padding: 30px 53px;
+    padding: 25px 44px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 50px;
-    
-    margin-top: 70px;
-
+    font-size: 35px;
+    margin-top: 50px;
     cursor: pointer;
 }
 
@@ -787,11 +783,11 @@ b.bcolor {
     background-color: #14B214;
     border: none;
     color: black;
-    padding: 30px 62px;
+    padding: 25px 52px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 50px;
+    font-size: 35px;
     cursor: pointer;
 }
 div.drive {
