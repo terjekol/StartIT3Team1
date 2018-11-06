@@ -1,4 +1,4 @@
-function showMeny() {
+function showMenu() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
