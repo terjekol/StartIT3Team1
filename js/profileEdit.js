@@ -1,5 +1,7 @@
 function profileEdit() {
+        var mainContentDiv = document.getElementById('mainContent');
         mainContentDiv.innerHTML = `
+
         <div class="backtop"></div>        
         <div class="backheadpassreq">   Profile    </div>
         <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
@@ -17,8 +19,4 @@ function profileEdit() {
                 <div class="profileSave" onclick="profile()">Save Changes</div>
         </div>
     `;
-}
-function saveProfile()
-{
-    showProfile();
 }
