@@ -1,5 +1,6 @@
-var mainContentDiv = document.getElementById('mainContent');
+
 function showfrontPage() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
     <div class="frontpage">
