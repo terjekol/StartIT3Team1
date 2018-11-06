@@ -1,5 +1,3 @@
-var mainContentDiv = document.getElementById('mainContent');
-
 function dologInCheck() {
     var username = document.getElementById('usernameTxt').value;
     var password = document.getElementById('passwordTxt').value;
