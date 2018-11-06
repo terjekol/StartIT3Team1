@@ -1,4 +1,5 @@
 function showpassReq() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = ` 
 
     <div class="backheadpassreq">Password recovery</div>
