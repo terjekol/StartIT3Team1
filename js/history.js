@@ -1,5 +1,6 @@
 
 function showTheHistory() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
 <div id="historyWo">History</div>
