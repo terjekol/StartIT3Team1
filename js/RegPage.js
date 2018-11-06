@@ -1,4 +1,5 @@
 function showRegPage() {
+    var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
     
     
