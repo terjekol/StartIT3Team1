@@ -1,4 +1,4 @@
-function showProfile() {
+function showprofilePage() {
     mainContentDiv.innerHTML = `
   
    
