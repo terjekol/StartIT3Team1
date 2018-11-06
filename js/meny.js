@@ -1,13 +1,15 @@
 function showMeny() {
     document.getElementById('mainContent').innerHTML = `
 
-    <div class="m1">Menu</div></br>
+    <div class="m1"></div>
+    <div class="m11">Menu</div>
 
-        <button class="m2">Driver</button>
-        <button onclick="showPassengerAppointment()" class="m3">Passanger</button></br></br>
-        <button class="m4">Profile</button>
-        <button onclick="showTheHistory()" class="m5">History</button></br>
-        <a href="index.html"><button class="m6">Log out</button></a>
+    <button class="m2">Driver</button>
+    <button onclick="showPassengerAppointment()" class="m3">Passanger</button><br>
+    <button class="m4">Profile</button>
+    <button onclick="showTheHistory()" class="m5">History</button><br>
+
+    <button onclick="showfrontPage()" class="m6">Log out</button>
 
         `;
 }
