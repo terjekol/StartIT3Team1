@@ -433,7 +433,6 @@ div.appointmentbox1, .appointmentbox2, .appointmentbox3, .appointmentbox4, .appo
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 5px;
-
 }
 div.appointmentbox1 {
     margin-top: 14px;
@@ -784,7 +783,6 @@ b.bcolor {
     
     margin-top: 70px;
 
-    cursor: pointer;
 }
 
 #NoButton {
@@ -796,6 +794,195 @@ b.bcolor {
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
-    
+   
+}
+div.driverhead {
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 10px;
+    right: 10px;
+    top: 3%;
+    min-width: 200px;
+}
+
+.pickuplan {
+    margin-top: 10vh;
+    margin-bottom: 4vh;
+    color: white;
+    font-size: 32px;
+}
+
+div.backheaddriverapp14 {
+    color: black;
+    font-size: 34px;
+    user-select: none;
+    font-family: 'Franklin Gothic Medium';
+    position: absolute;
+    z-index: 2;
+    left: 22px;
+    right: 10px;
+    top: 3.5vh;
+    min-width: 200px;
+}
+
+div.d1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 34px;
+    margin-top: 14vh;
+}
+
+div.d2, .d3, .d4, .d5, .d6 {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+div.d2 {
+    margin-top: 14px;
+    background-color: #00b506;
+
+}
+div.d3 {
+    margin-top: 14px;
+    background-color: #ff4e00;
+}
+
+div.weekback7 {
+    position: absolute;
+    z-index: 3;
+    top: 538px;
+    left: 45px;
+    font-size: 32px;
+    color: darkorange;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
     cursor: pointer;
 }
+
+div.weeknext8 {
+    position: absolute;
+    z-index: 3;
+    top: 538px;
+    right: 50px;
+    font-size: 32px;
+    color: darkorange;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
+    cursor: pointer;
+}
+
+div.weekback9 {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 530px;
+    left: 40px;
+    border: groove 2px black;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+div.weeknext10 {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 530px;
+    right: 40px;
+    border: groove 2px black;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+
+
+div.color11 {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 14px;
+}
+
+button.finddriver13 {
+    background-color: white;
+    border: groove black 2px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+    min-width: 300px;
+    cursor: pointer;
+}
+div.backtop14 {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    border-bottom: groove 3px black;
+    box-shadow: 0 0 10px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div.backbutton15 {
+    background-color: white;
+    box-shadow: 0 0 5px black;
+    width: 40px;
+    height: 50px;
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 5px;
+    border: groove 2px black;
+    border-radius: 20%;
+}
+
+div.backbuttonsymbol16 {
+    position: absolute;
+    z-index: 3;
+    top: 24px;
+    left: 10px;
+    font-size: 32px;
+    color: darkorange;
+    font-weight: bold;
+    letter-spacing: -6px;
+    user-select: none;
+    cursor: pointer;
+}
+b.color12 {
+    color: lime;
+}
+
+
+
+
+
