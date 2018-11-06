@@ -8,8 +8,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    padding: 0px;
-    margin: 0px;
 }
 textarea:focus, input:focus, button:focus {
     outline: none;
