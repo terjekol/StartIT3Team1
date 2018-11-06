@@ -3,13 +3,11 @@ function showTheHistory() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
-<div class="backtop"></div>
+    <div class="backtop"></div>
     <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div>
     <div onclick="showMenu()" class="backbutton"></div>
 
-
-    <div id="History">History</div>
-    <hr id="line" />
+    <div class="backheaddriverapp">History</div>
 
     <button class="driverHistory" onclick="driverHistory()">Driver</button>
     <button class="PassengerHistory" onclick="passengerHistory()">Passenger</button>
