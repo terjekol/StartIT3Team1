@@ -2,7 +2,7 @@ function dologInCheck() {
     var username = document.getElementById('usernameTxt').value;
     var password = document.getElementById('passwordTxt').value;
     if (username == 'admin' && password == '12345') {
-        showMeny();
+        showMenu();
     }
     if (username == '' && password == '') {
     }
