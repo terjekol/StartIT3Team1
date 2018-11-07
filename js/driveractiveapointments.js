@@ -1,4 +1,4 @@
-﻿function showSelectUserTypeScreen() {
+﻿function driveractiveapointments() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
