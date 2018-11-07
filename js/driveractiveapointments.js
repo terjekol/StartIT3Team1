@@ -1,4 +1,4 @@
-﻿function showdriveractiveapointments() {
+﻿function ShowDriverAppointments() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
