@@ -470,6 +470,7 @@ div.weekback {
     font-weight: bold;
     letter-spacing: -6px;
     user-select: none;
+    cursor: pointer;
 }
 div.weeknext {
     position: absolute;
@@ -481,6 +482,7 @@ div.weeknext {
     font-weight: bold;
     letter-spacing: -6px;
     user-select: none;
+    cursor: pointer;
 }
 div.weekback2 {
     background-color: white;
@@ -493,6 +495,7 @@ div.weekback2 {
     left: 40px;
     border: groove 2px black;
     border-radius: 20%;
+    cursor: pointer;
 }
 div.weeknext2 {
     background-color: white;
@@ -505,6 +508,7 @@ div.weeknext2 {
     right: 40px;
     border: groove 2px black;
     border-radius: 20%;
+    cursor: pointer;
 }
 div.colorexp2 {
     color: lime;
@@ -877,7 +881,7 @@ div.d3 {
 div.weekback7 {
     position: absolute;
     z-index: 3;
-    top: 538px;
+    top: 520px;
     left: 45px;
     font-size: 32px;
     color: darkorange;
@@ -889,7 +893,7 @@ div.weekback7 {
 div.weeknext8 {
     position: absolute;
     z-index: 3;
-    top: 538px;
+    top: 520px;
     right: 50px;
     font-size: 32px;
     color: darkorange;
@@ -905,7 +909,7 @@ div.weekback9 {
     height: 50px;
     position: absolute;
     z-index: 2;
-    top: 530px;
+    top: 512px;
     left: 40px;
     border: groove 2px black;
     border-radius: 20%;
@@ -918,7 +922,7 @@ div.weeknext10 {
     height: 50px;
     position: absolute;
     z-index: 2;
-    top: 530px;
+    top: 512px;
     right: 40px;
     border: groove 2px black;
     border-radius: 20%;
@@ -1022,7 +1026,6 @@ b.color12 {
     color: #FF8800;
     height: 50px;
     margin-left: 6px;
->>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     cursor: pointer;
     display: block;
 }
