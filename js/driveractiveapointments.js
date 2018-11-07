@@ -3,8 +3,8 @@
     mainContentDiv.innerHTML = `
 
     <div class="backtop"></div>
-    <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-    <a href="index.html"><div class="backbutton"></div></a>
+    <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div>
+    <div onclick="showMenu()" class="backbutton"></div>
     <div id="sjaforforheader">Active Passangers</div>
 
     <div class="sjaforformaindiv">
