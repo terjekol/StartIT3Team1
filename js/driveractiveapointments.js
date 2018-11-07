@@ -22,7 +22,7 @@
                 <p class="sjaforfortlfnumber2">13 99 99 37</p>
                 <p id="sjaforforavstand2">Distance: 4km</p>
                 <div id="sjaforforgooglemaps2">Google Maps</div>
-                <div onclick="cancelYesNO()" class="sjaforforAvlys2">Avlys</div>
+                <div onclick="cancelYesNO()" class="sjaforforAvlys2">Cancel</div>
             </div>
         </div>
     </div>
