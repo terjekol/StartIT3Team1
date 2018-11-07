@@ -8,7 +8,7 @@ function showDriver() {
     <div class="backheaddriverapp14"> Driver</div>
     <div class="d1"> Your active appointments</div>
 
-    <div class="d2"> Monday</div>
+    <div onclick="showdriveractiveapointments() class="d2"> Monday</div>
     <div class="d3"> Tuesday</div>
     <div class="d4"> Wednesday</div>
     <div class="d5"> Thursday</div>
