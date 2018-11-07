@@ -1,3 +1,7 @@
+var PhoneCP;
+var EmailCP;
+var PickupCP;
+var statusCP;
 function showProPage() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
@@ -25,4 +29,9 @@ function showProPage() {
     </div>
     
     `;
+    PhoneCP = document.getElementById('nummer').innerText;
+    EmailCP = document.getElementById('mail').innerText;
+    PickupCP = document.getElementById('point').innerText;
+    statusCP = document.getElementById('status').innerText;
+
 }
