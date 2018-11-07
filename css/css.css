@@ -640,7 +640,6 @@ b.bcolor {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;            
     border: none;
-
 }
 .driver10
 {
@@ -788,7 +787,6 @@ b.bcolor {
     box-sizing: border-box;
     margin-top: 150px;
 }
-
 #yesButton {
     background-color: #FF0000;
     border: none;
@@ -797,16 +795,11 @@ b.bcolor {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-<<<<<<< HEAD
     font-size: 50px;
-    
     margin-top: 70px;
-
-=======
     font-size: 35px;
     margin-top: 50px;
     cursor: pointer;
->>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
 }
 
 #NoButton {
@@ -840,7 +833,6 @@ div.driverhead {
     color: white;
     font-size: 32px;
 }
-
 div.backheaddriverapp14 {
     color: black;
     font-size: 34px;
@@ -853,55 +845,35 @@ div.backheaddriverapp14 {
     top: 3.5vh;
     min-width: 200px;
 }
-
 div.d1 {
     color: white;
     font-family: 'Franklin Gothic Medium';
     font-size: 34px;
     margin-top: 14vh;
 }
-
 div.d2, .d3, .d4, .d5, .d6 {
     background-color: white;
     border: groove black 2px;
-=======
-    font-size: 35px;
-    cursor: pointer;
-}
-div.drive {
-    color: white;
-    font-size: 34px;
-    margin-top: 30vh;
-    margin-bottom: -35vh;
-}
-#knapp {
-    background-color: white;
-    border: groove black 2px;             
->>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     color: black;
     font-size: 32px;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5vw;
     margin-right: 5vw;
-    cursor: pointer;
     margin-top: 5px;
+    cursor: pointer;
 }
-
 div.d2 {
     margin-top: 14px;
     background-color: #00b506;
-
 }
 div.d3 {
     margin-top: 14px;
     background-color: #ff4e00;
 }
-
 div.weekback7 {
     position: absolute;
     z-index: 3;
@@ -914,7 +886,6 @@ div.weekback7 {
     user-select: none;
     cursor: pointer;
 }
-
 div.weeknext8 {
     position: absolute;
     z-index: 3;
@@ -927,7 +898,6 @@ div.weeknext8 {
     user-select: none;
     cursor: pointer;
 }
-
 div.weekback9 {
     background-color: white;
     box-shadow: 0 0 5px black;
@@ -941,7 +911,6 @@ div.weekback9 {
     border-radius: 20%;
     cursor: pointer;
 }
-
 div.weeknext10 {
     background-color: white;
     box-shadow: 0 0 5px black;
@@ -955,51 +924,29 @@ div.weeknext10 {
     border-radius: 20%;
     cursor: pointer;
 }
-
-
-
 div.color11 {
     margin-top: 10px;
     color: white;
     font-family: 'Franklin Gothic Medium';
     font-size: 14px;
 }
-
 button.finddriver13 {
     background-color: white;
-=======
-    margin-top: 40vh;
-    margin-bottom: 30vh;
-    min-width: 300px;
-    max-width: 10vw;          
-}
-
-div.sikker {
-    color: white;
-    font-size: 34px;
-    margin-top: 20vh;
-    margin-bottom: 10vh;
-   
-}
-#knappA {
-    background-color: green;
->>>>>>> b339eab1cc2e8ede267c79ad028ee67aded38be1
     border: groove black 2px;
     border-radius: 10px;
     box-shadow: 0 0 5px black;
     color: black;
     font-size: 32px;
     text-align: center;
-<<<<<<< HEAD
     padding-top: 10px;
     padding-bottom: 10px;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 10vh;
+    margin-top: 7vh;
     min-width: 300px;
     cursor: pointer;
 }
-div.backtop14 {
+div.backtop17 {
     background-color: white;
     width: 100%;
     height: 80px;
@@ -1009,8 +956,8 @@ div.backtop14 {
     top: 0;
     left: 0;
     z-index: 1;
+    cursor: pointer;
 }
-
 div.backbutton15 {
     background-color: white;
     box-shadow: 0 0 5px black;
@@ -1022,8 +969,8 @@ div.backbutton15 {
     left: 5px;
     border: groove 2px black;
     border-radius: 20%;
+    cursor: pointer;
 }
-
 div.backbuttonsymbol16 {
     position: absolute;
     z-index: 3;
@@ -1034,10 +981,10 @@ div.backbuttonsymbol16 {
     font-weight: bold;
     letter-spacing: -6px;
     user-select: none;
-=======
-    margin-top: 20px;
-    min-width: 170px;
-    max-width: 10vw;
+    cursor: pointer;
+}
+b.color12 {
+    color: lime;
 }
 #knappB 
 {
@@ -1376,9 +1323,7 @@ div.backbuttonsymbol16 {
     top: 3%;
     min-width: 200px; 
 }
-b.color12 {
-    color: lime;
-}
+
 
 
 
