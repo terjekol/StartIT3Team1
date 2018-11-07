@@ -1325,7 +1325,77 @@ b.color12 {
     min-width: 200px; 
 }
 
+/*
 
+SJÅFØR FOR
+
+*/
+#sjaforforheader{
+    color: black;
+    z-index: 5;
+    position: absolute;
+    font-size: 26px;
+    width: 100%;
+    left: 5px;
+    top: 25px;
+}
+div.sjaforformaindiv{
+    padding-top: 4vh;
+    font-size: 36px;
+    margin: auto;
+    position: absolute center;
+    margin-top: 10vh;
+}
+div.sjaforforcontainer{
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+#sjaforfor1, #sjaforfor2    {
+    border: solid 1px black;
+    padding-bottom: 15px;
+    background-color: rgb(173, 173, 173);
+    margin-bottom: 5vh;
+    
+}
+h1.sjaforfortest123, .sjaforfornavn2{
+    font-size: 4vh;
+}
+p.sjaforfortlfnumber1, .sjaforfortlfnumber2{
+    font-size: 3vh;
+    margin-top: -20px;
+}
+#sjaforforavstand1, #sjaforforavstand2{
+    font-size: 3vh;
+    margin-bottom: 10vh;
+}
+#sjaforforgooglemaps1, #sjaforforgooglemaps2{
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 4vh;
+    margin-bottom: 20vh;
+    width: 80vw;
+    height: 6vh;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute center;
+}
+div.sjaforforAvlys1, .sjaforforAvlys2{
+    border: solid 1px black;
+    border-radius: 5%;
+    background-color: rgb(252, 161, 161);
+    width: 80vw;
+    height: 6vh;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: auto;
+    position: absolute center;
+    margin-bottom: 1vh;
+    font-size: 5vh;
+}
 
 
 
