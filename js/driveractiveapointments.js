@@ -14,7 +14,7 @@
                 <p class="sjaforfortlfnumber1">99 13 37 99</p>
                 <p id="sjaforforavstand1">Distance: 2km</p>
                 <div id="sjaforforgooglemaps1">Google Maps</div>
-                <div class="sjaforforAvlys1">Cancel</div>
+                <div onclick="cancelYesNO()" class="sjaforforAvlys1">Cancel</div>
             </div>
 
             <div id="sjaforfor2">
@@ -22,7 +22,7 @@
                 <p class="sjaforfortlfnumber2">13 99 99 37</p>
                 <p id="sjaforforavstand2">Distance: 4km</p>
                 <div id="sjaforforgooglemaps2">Google Maps</div>
-                <div class="sjaforforAvlys2">Avlys</div>
+                <div onclick="cancelYesNO()" class="sjaforforAvlys2">Avlys</div>
             </div>
         </div>
     </div>
