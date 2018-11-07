@@ -20,7 +20,7 @@ function showProPage() {
             <div class="profile4">Driver Status<br><div id="status" class="profileInfo">Available</div></div>
             <div id="lar"></div>
             <div id="lar2"></div>
-            <div class="profile5" onclick="editProfile()">Edit Profile</div>
+            <div class="profile5" onclick="profileEdit()">Edit Profile</div>
     
     </div>
     

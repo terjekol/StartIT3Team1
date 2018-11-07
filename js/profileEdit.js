@@ -16,7 +16,7 @@ function profileEdit() {
                 <div class="profileStatus"><input type="text" name="Status" placeholder="Driver Status" style="border: none; text-align: center;"></div>
                 <div class="profilePassword"><input type="password" name="Password" placeholder="New Password" style="border: none; text-align: center;"></div>
                 <div class="profileConfirm"><input type="password" name="PassAgain" placeholder="New Password Again" style="border: none; text-align: center;"></div>
-                <div class="profileSave" onclick="profile()">Save Changes</div>
+                <div class="profileSave" onclick="showProPage()">Save Changes</div>
         </div>
     `;
 }
