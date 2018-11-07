@@ -20,7 +20,7 @@ function profileEdit()
         <a href="index.html"><div class="backbutton"></div></a>
         <div class="lele2"><h2></h2></div>    
         <div class="backgroundkaos"></div>      
-        <div class="profileBilde"><img src=img/bildetest.png style="max-width: 230px; max-height: 250px;"></div>
+        <div class="profileBilde"></div>
         <div class="ProfileEdit">       
                 <div class="profilePhone"><input type="text" id="phoneT" name="Number" placeholder="Phone Number" style="border: none; text-align: center;"></div>
                 <div class="profileEmail"><input type="text" id="emailT"  name="Mail" placeholder="Email Adress"  style="border: none; text-align: center;"></div>
@@ -57,7 +57,7 @@ function saveP()
                        
                    <div class="lele2"><h2></h2></div>    
                    <div class="backgroundkaos"></div>      
-                   <div class="profileBilde"><img src=img/bildetest.png style="max-width: 230px; max-height: 250px;"></div>
+                   <div class="profileBilde"></div>
                    <div class="ProfileBoks">  
                        
                            <div id="Navn" class="profileNavn">Houng Dajin</div>

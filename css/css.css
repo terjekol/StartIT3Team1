@@ -1098,16 +1098,22 @@ b.color12 {
 }
 .profileBilde
 {
-    max-width: 220px;
-    max-height: 300px;
-    background: white;
     padding: 3px;
     border-radius: 100%;
-    margin-top: auto;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0;
     border: solid 1px #707070;
+    background-image: url("bildetest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: center;
+    background-size:cover;
+    width: 200px;
+    height: 200px;
+    max-width: 100%; 
+    max-height: 100%;
     z-index: 1;
 }
 .backgroundkaos
@@ -1166,7 +1172,7 @@ b.color12 {
     border-color: #707070;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 5px 30px;
 }
 .profile5
@@ -1176,7 +1182,7 @@ b.color12 {
     margin-right: auto;
     margin-left: auto;
     padding: 10px 90px;
-    margin-top: 40px;
+    margin-top: 10px;
     
 }
 .ProfileBoks 
