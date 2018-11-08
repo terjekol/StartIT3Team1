@@ -1326,6 +1326,121 @@ b.color12 {
 }
 
 
+#Driver {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-color: #002147;
+    height: 2vw;
+    /*padding-top: 17vw;
+    padding-bottom:5px;*/
+    margin-top:20vw;
+    
+}
+
+#firstDriver {
+    background-color:white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+   
+}
+
+#date {
+    background-color: #313131;
+    height: 9px;
+    /*border: 25px solid #313131;*/
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 0.5rem;
+    margin-left: 2px;
+    /*padding-right: 12px;
+    padding-top: 0px;*/
+    position: absolute;
+    width: 72px;
+    z-index: 1;
+}
+
+#day {
+    background-color: #313131;
+    height: 7px;
+    /*border: 25px solid #313131;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 14px;
+    padding: 0.5rem;
+    margin-left: 2px;
+    /*padding-right: 12px;
+    padding-top: 0px;*/
+    position: absolute;
+    bottom: 0px;
+    width: 72px;
+    z-index: 1;
+}
+
+#secondDriver {
+    background-color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+#therdDriver {
+    background-color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+#forthdDriver {
+    background-color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+#fifthdDriver {
+    background-color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+#sixthDriver {
+    background-color: white;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    height: 10rem;
+    display: block;
+    position: relative;
+}
+
+
 
 
 
