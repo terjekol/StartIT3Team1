@@ -990,6 +990,7 @@ b.color12 {
 }
 b.color18 {
     color: green;
+}
 #knappB 
 {
         background-color: red;
@@ -1364,6 +1365,7 @@ b.color18 {
     background-color: #313131;
     height: 9px;
     /*border: 25px solid #313131;*/
+}
 #icon2 {
     background-color: white;
     float: left;
