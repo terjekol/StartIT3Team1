@@ -8,7 +8,7 @@ function showDriver() {
     <div class="backheaddriverapp14"> Driver</div>
     <div class="d1"> Your active appointments</div>
 
-    <div class="d2"> Monday</div>
+    <div onclick="ShowDriverAppointments()" class="d2"> Monday</div>
     <div class="d3"> Tuesday</div>
     <div class="d4"> Wednesday</div>
     <div class="d5"> Thursday</div>
@@ -20,7 +20,12 @@ function showDriver() {
     <div class="weeknext10"></div>
 
     <div class="color11"><b class="color12">Red</b> = Cancelled appointments</div>
+<<<<<<< HEAD
+    <div class="color11"><b class="color18">green</b> = Active appointment</div>
+    <button class="finddriver13" onclick="showPassengerAppointment()">Find passenger</button>
+=======
     <button class="finddriver13" onclick="showPassengerPage()">Find passenger</button>
+>>>>>>> 3a4623ca97bbd6a006ba748cb2af59dfb2a7ffdb
 
  `;
 }

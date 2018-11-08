@@ -14,7 +14,7 @@ function showProPage() {
         
     <div class="lele2"><h2></h2></div>    
     <div class="backgroundkaos"></div>      
-    <div class="profileBilde"><img src=img/bildetest.png style="max-width: 230px; max-height: 250px;"></div>
+    <div class="profileBilde"></div>
     <div class="ProfileBoks">  
         
             <div id="Navn" class="profileNavn">Houng Dajin</div>
