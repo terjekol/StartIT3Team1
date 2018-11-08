@@ -1,3 +1,7 @@
+var PhoneCP;
+var EmailCP;
+var PickupCP;
+var statusCP;
 function showProPage() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
@@ -10,7 +14,7 @@ function showProPage() {
         
     <div class="lele2"><h2></h2></div>    
     <div class="backgroundkaos"></div>      
-    <div class="profileBilde"><img src=img/bildetest.png style="max-width: 230px; max-height: 250px;"></div>
+    <div class="profileBilde"></div>
     <div class="ProfileBoks">  
         
             <div id="Navn" class="profileNavn">Houng Dajin</div>
@@ -20,9 +24,14 @@ function showProPage() {
             <div class="profile4">Driver Status<br><div id="status" class="profileInfo">Available</div></div>
             <div id="lar"></div>
             <div id="lar2"></div>
-            <div class="profile5" onclick="editProfile()">Edit Profile</div>
+            <div class="profile5" onclick="profileEdit()">Edit Profile</div>
     
     </div>
     
     `;
+    PhoneCP = document.getElementById('nummer').innerText;
+    EmailCP = document.getElementById('mail').innerText;
+    PickupCP = document.getElementById('point').innerText;
+    statusCP = document.getElementById('status').innerText;
+
 }
