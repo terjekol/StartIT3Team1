@@ -20,12 +20,9 @@ function showDriver() {
     <div class="weeknext10"></div>
 
     <div class="color11"><b class="color12">Red</b> = Cancelled appointments</div>
-<<<<<<< HEAD
     <div class="color11"><b class="color18">green</b> = Active appointment</div>
     <button class="finddriver13" onclick="showPassengerAppointment()">Find passenger</button>
-=======
-    <button class="finddriver13" onclick="showPassengerPage()">Find passenger</button>
->>>>>>> 3a4623ca97bbd6a006ba748cb2af59dfb2a7ffdb
+    
 
  `;
 }
