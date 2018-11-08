@@ -991,9 +991,6 @@ b.color12 {
 }
 b.color18 {
     color: green;
-=======
->>>>>>> 3a4623ca97bbd6a006ba748cb2af59dfb2a7ffdb
-}
 #knappB 
 {
         background-color: red;
@@ -1017,14 +1014,11 @@ b.color18 {
     z-index: 1;
     margin-top: 20px;
 }
-
 .history {
     background-color: #00669B;
     height: 60px;
-    padding-top: 15px;
-    
+    padding-top: 15px; 
 }
-
 #icon {
     float: left;
     color: #FF8800;
@@ -1033,7 +1027,6 @@ b.color18 {
     cursor: pointer;
     display: block;
 }
-
 #History {
     color: white;
     font-size: 35px;
@@ -1043,14 +1036,12 @@ b.color18 {
     z-index: 1;
     margin-top: 20px;
 }
-
 #line {
     margin-top: 60px;
     margin-bottom: 30px;
     margin-left: 0px;
     margin-right: 0px;
 }
-
 .driverHistory {
     background-color: white;
     border: groove black 2px;
@@ -1066,7 +1057,6 @@ b.color18 {
     margin-top: 20vh;
     min-width: 300px;
 }
-
 .PassengerHistory {
     background-color: white;
     border: groove black 2px;
@@ -1082,7 +1072,6 @@ b.color18 {
     margin-top: 7vh;
     min-width: 300px;
 }
-
 .ContributorsHistory {
     background-color: white;
     border: groove black 2px;
@@ -1352,8 +1341,6 @@ b.color18 {
     height: 60px;
     padding-top: 15px;
 }
-
-<<<<<<< HEAD
 #Driver {
     color: white;
     font-size: 40px;
@@ -1363,9 +1350,7 @@ b.color18 {
     /*padding-top: 17vw;
     padding-bottom:5px;*/
     margin-top:20vw;
-    
 }
-
 #firstDriver {
     background-color:white;
     margin-top: 50px;
@@ -1374,15 +1359,12 @@ b.color18 {
     border: 2px solid black;
     height: 10rem;
     display: block;
-    position: relative;
-   
+    position: relative;  
 }
-
 #date {
     background-color: #313131;
     height: 9px;
     /*border: 25px solid #313131;*/
-=======
 #icon2 {
     background-color: white;
     float: left;
@@ -1392,7 +1374,6 @@ b.color18 {
     cursor: pointer;
     display: block;
 }
-
 #passenger {
     color: white;
     font-size: 45px;
@@ -1401,7 +1382,6 @@ b.color18 {
     height: 6vw;
     padding-top: 3vw;
 }
-
 #firstpassenger {
     background-color: white;
     margin-top: 10px;
@@ -1412,18 +1392,15 @@ b.color18 {
     display: block;
     position: relative;
 }
-
 #dates {
     height: 9px;
     width: 72px;
     background-color: #313131;
->>>>>>> 65499fcd9f232b5b15a3df72eef5a68c4ebb7851
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     color: white;
     font-size: 14px;
     padding: 0.5rem;
-<<<<<<< HEAD
     margin-left: 2px;
     /*padding-right: 12px;
     padding-top: 0px;*/
@@ -1431,40 +1408,32 @@ b.color18 {
     width: 72px;
     z-index: 1;
 }
-
 #day {
     background-color: #313131;
     height: 7px;
     /*border: 25px solid #313131;*/
-=======
     margin-left: 2rem;
     position: absolute;
     z-index: 1;
 }
-
 #days {
     background-color: #313131;
     height: 7px;
->>>>>>> 65499fcd9f232b5b15a3df72eef5a68c4ebb7851
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: white;
     font-size: 14px;
     padding: 0.5rem;
-<<<<<<< HEAD
     margin-left: 2px;
     /*padding-right: 12px;
     padding-top: 0px;*/
-=======
+
     margin-left: 2rem;
->>>>>>> 65499fcd9f232b5b15a3df72eef5a68c4ebb7851
     position: absolute;
     bottom: 0px;
     width: 72px;
     z-index: 1;
 }
-
-<<<<<<< HEAD
 #secondDriver {
     background-color: white;
     margin-top: 50px;
@@ -1519,9 +1488,6 @@ b.color18 {
     display: block;
     position: relative;
 }
-
-
-=======
 /*
 
 SJÅFØR FOR
@@ -1593,7 +1559,6 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
     margin-bottom: 1vh;
     font-size: 5vh;
 }
->>>>>>> 65499fcd9f232b5b15a3df72eef5a68c4ebb7851
 
 
 
