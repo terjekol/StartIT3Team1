@@ -1,7 +1,7 @@
 function showTopcontributors() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
-<div class="tophistory">
+<div class="tophistory222">
 
     <div onclick="showMenu()" class="backbuttonsymbol16"> <div class="home">
 
@@ -16,7 +16,7 @@ function showTopcontributors() {
 
     
 
-    <div class="top12">Top Contributors</div>
+    <div class="top122">Top Contributors</div>
 
 
     <br />

@@ -1381,8 +1381,8 @@ b.color18 {
     font-size: 45px;
     text-align: center;
     background-color: #002147;
-    height: 6vw;
-    padding-top: 3vw;
+    margin-top:65px;
+    padding-top: 25px;
 }
 #firstpassenger {
     background-color: white;
@@ -1613,7 +1613,7 @@ div.bildet111 {
     margin-right: 5px;
 }
 
-div.img {
+#.img {
     height: 200px;
 }
 
@@ -1651,7 +1651,7 @@ div.history1111 {
     font-size: 25px;
 }
 
-div.top12 {
+div.top122 {
     color: white;
     background-clip: border-box;
     background-color: #002147;
@@ -1661,10 +1661,32 @@ div.top12 {
 }
 
 
-div.tophistory{
+div.tophistory22{
     background-color: white;
 }
-
+div.backheadpassreq {
+            color: black;
+            font-size: 34px;
+            user-select: none;
+            font-family: 'Franklin Gothic Medium';
+            position: absolute;
+            z-index: 2;
+            left: 10px;
+            right: 10px;
+            top: 3%;
+            min-width: 200px;
+            margin-top: 1vh;
+        }
+        p {
+            font-size: 15px;
+            margin-top: 15vh;
+            color: #FFFFFF;
+        }
+        p1 {
+            font-size: 15px;
+            margin-top: 15vh;
+            color: #FFFFFF;
+        }
 
 
 
