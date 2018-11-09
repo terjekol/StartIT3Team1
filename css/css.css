@@ -105,18 +105,19 @@ div.showInfo {
     border-radius: 50%;
     text-align: center;
 }
-div.info {
+.info {
     font-size: 24px;
     border: 1px groove black;
     box-shadow: 0 0 3px black;
     text-shadow: 0 0 1px black;
-    position: absolute;
-    top: 5px;
+    position: absolute;    
     right: 5px;
     padding: 0px 10px 0 10px;
     background-color: white;
     border-radius: 50%;
     text-align: center;
+    margin-right: 13vh;
+    margin-top: 8vh;    
 }
 button:hover {
     -webkit-transform: scale(1.02);
