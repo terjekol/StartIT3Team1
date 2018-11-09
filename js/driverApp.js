@@ -4,8 +4,8 @@ function driverApp() {
 
     <div class="backtop"></div>        
     <div class="backheadpassreq">   Driver    </div>
-    <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-    <a href="index.html"><div class="backbutton"></div></a>
+    <div onclick="showPassengerAppointment()" class="backbuttonsymbol">&lt;&lt</div></a>
+    <div onclick="showPassengerAppointment()" class="backbutton"></div></a>       
     <div class="lele2"><h2>Appointments:</h2></div>
     <div class="driverboks">       
 
@@ -18,7 +18,7 @@ function driverApp() {
             <div class="driver8">Elias Jacobsen <br> Hagalia 32 Larvik</div>
             <div class="driver9"><img src=img/bildetest.png class="bildete"></div>
             <div class="driver10">Hilde Mannegård <br> Torget 10 Larvik</div>
-            <div class="driver11">img src=img/bildetest.png class="bildete"></div>
+            <div class="driver11"><img src=img/bildetest.png class="bildete"></div>
             <div class="driver12">Tom .J. Bain <br> Bøkergata 21 Sandefjord</div>
             <div class="driver13"><img src=img/bildetest.png class="bildete"></div>
             <div class="driver14">Tommy Johnson <br> Øvre Ohlssons Gate 23 Tønsberg</div>

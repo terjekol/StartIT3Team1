@@ -11,6 +11,7 @@ function showTheHistory() {
 
     <button class="driverHistory" onclick="driverHistory()">Driver</button>
     <button class="PassengerHistory" onclick="passengerHistory()">Passenger</button>
-    <button class="ContributorsHistory" onclick="contributorsHistory()">Top Contributors</button>
+    <button class="ContributorsHistory" onclick="showTopcontributors()">Top Contributors</button>
+
 `;
 }
