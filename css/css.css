@@ -1380,8 +1380,8 @@ b.color18 {
     font-size: 45px;
     text-align: center;
     background-color: #002147;
-    height: 6vw;
-    padding-top: 3vw;
+    margin-top:65px;
+    padding-top: 25px;
 }
 #firstpassenger {
     background-color: white;
