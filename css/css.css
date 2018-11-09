@@ -455,6 +455,7 @@ div.appointmentbox1, .appointmentbox2, .appointmentbox3, .appointmentbox4, .appo
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 5px;
+    cursor: pointer;
 }
 div.appointmentbox1 {
     margin-top: 14px;
@@ -1603,6 +1604,66 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
                 
            
         }
+div.bildet111 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+div.img {
+    height: 200px;
+}
+
+div.driver111 {
+    color: gray;
+    text-align: center;
+    font-size: 36px;
+}
+
+div.navn111 {
+    text-align: center;
+    font-size: 36px;
+}
+
+hr {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+
+#icon2222 {
+    float: left;
+    height: 44px;
+    margin-left: 6px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+div.history1111 {
+    color: white;
+    background-clip: border-box;
+    background-color: #6fbab0;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+div.top12 {
+    color: white;
+    background-clip: border-box;
+    background-color: #002147;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+div.tophistory{
+    background-color: white;
+}
 
 
 
