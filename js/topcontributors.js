@@ -16,7 +16,7 @@ function showTopcontributors() {
 
     
 
-    <div class="top12">Top Contributors</div>
+    <div class="top122">Top Contributors</div>
 
 
     <br />
