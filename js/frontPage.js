@@ -21,7 +21,7 @@ function showfrontPage() {
             <button class="regi" onclick="profileCreate()">Registrer</button>
         </div>
 
-        <div class="showInfo" onclick="showInfo()"></div>
+        
         
 
     </div>
