@@ -26,8 +26,8 @@ function profileCreate()
         <div class="profileBilde"></div>
         <div class="ProfileEdit">       
                 <div class="profilePhone"><input type="text" id="brukerNavn" name="Number" placeholder="Brukernavn" style="border: none; text-align: center;"></div>
-                <div class="profileEmail"><input type="text" id="phoneT"  name="Mail" placeholder="Email Adress"  style="border: none; text-align: center;"></div>
-                <div class="profilePickup"><input type="text" id="emailT" name="Point" placeholder="Pick up Point" style="border: none; text-align: center;"></div>
+                <div class="profileEmail"><input type="text" id="emailT"  name="Mail" placeholder="Email Adress"  style="border: none; text-align: center;"></div>
+                <div class="profilePickup"><input type="text" id="phoneT" name="Point" placeholder="Phone Number" style="border: none; text-align: center;"></div>
                 <div class="profileStatus"><input type="text" id="statusT" name="Status" placeholder="Driver Status" style="border: none; text-align: center;"></div>
                 <div class="profilePassword"><input type="password" id="passT" name="Password" placeholder="New Password" style="border: none; text-align: center;"></div>
                 <div class="profileConfirm"><input type="password" id="passTC" name="PassAgain" placeholder="New Password Again" style="border: none; text-align: center;"></div>

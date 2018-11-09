@@ -92,7 +92,7 @@ input#passwordTxt {
     max-width: 80%;
     max-height: 30vh;
 }
-.info {
+div.showInfo {
     font-size: 24px;
     border: 1px groove black;
     box-shadow: 0 0 3px black;
@@ -1609,7 +1609,8 @@ div.bildet111 {
     margin-right: 5px;
 }
 
-#.img {
+#img 
+{
     height: 200px;
 }
 
@@ -1660,7 +1661,69 @@ div.top122 {
 div.tophistory22{
     background-color: white;
 }
+div.backheadpassreq {
+            color: black;
+            font-size: 34px;
+            user-select: none;
+            font-family: 'Franklin Gothic Medium';
+            position: absolute;
+            z-index: 2;
+            left: 10px;
+            right: 10px;
+            top: 3%;
+            min-width: 200px;
+            margin-top: 1vh;
+        }
+        p {
+            font-size: 15px;
+            margin-top: 15vh;
+            color: #FFFFFF;
+        }
+        p1 {
+            font-size: 15px;
+            margin-top: 15vh;
+            color: #FFFFFF;
+        }
 
+div.Drive {
+            color: white;
+            font-size: 34px;
+            margin-top: 35vh;
+            margin-bottom:-35vh;
+            padding: 15px
+            
+        }
 
+        body {
+            background-color: #002147;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium';
+            user-select: none;
+        }
 
+        #Ok {
+            background-color: white;
+            border: groove black 2px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+            color: black;
+            font-size: 32px;
+            text-align: center;
+            margin-top: 30px;
+           
+        }
+
+        #Button {
+            background-color: white;
+            border: groove black 2px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+            color: black;
+            font-size: 32px;
+            text-align: center;
+            margin-top: 40vh;
+            margin-bottom: 30vh;
+            min-width: 500px;
+            max-width: 10vw;
+        }
 

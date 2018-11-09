@@ -6,29 +6,58 @@ function showProPage() {
     var mainContentDiv = document.getElementById('mainContent');
     if(!brukerNavnT == '')
     {
-        mainContentDiv.innerHTML = `
+        if( !pickupT == '')
+        {
+            mainContentDiv.innerHTML = `
   
    
-        <div class="backtop"></div>        
-        <div class="backheadpassreq">   Profile    </div>
-        <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div></a>
-        <div onclick="showMenu()" class="backbutton"></div></a>
+            <div class="backtop"></div>        
+            <div class="backheadpassreq">   Profile    </div>
+            <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div></a>
+            <div onclick="showMenu()" class="backbutton"></div></a>
+                   
+               <div class="lele2"><h2></h2></div>    
+               <div class="backgroundkaos"></div>      
+               <div class="profileBilde"></div>
+               <div class="ProfileBoks">  
+        
+                       <div id="Navn" class="profileNavn">` + brukerNavnT + `</div>
+                       <div class="profile1">Phone Number<br><div id="nummer" class="profileInfo">` + phoneT + `</div></div>
+                       <div class="profile2">Email <br><div id="mail" class="profileInfo">` + emailT + `</div></div>
+                       <div class="profile3">Pick up Point <br><div id="point" class="profileInfo">` + pickupT + `</div></div>
+                       <div class="profile4">Driver Status<br><div id="status" class="profileInfo">` + statusT + `</div></div>
+                       <div class="profile5" onclick="profileEdit()">Edit Profile</div>
                
-           <div class="lele2"><h2></h2></div>    
-           <div class="backgroundkaos"></div>      
-           <div class="profileBilde"></div>
-           <div class="ProfileBoks">  
-    
-                   <div id="Navn" class="profileNavn">` + brukerNavnT + `</div>
-                   <div class="profile1">Phone Number<br><div id="nummer" class="profileInfo">` + phoneT + `</div></div>
-                   <div class="profile2">Email <br><div id="mail" class="profileInfo">` + emailT + `</div></div>
-                   <div class="profile3">Pick up Point <br><div id="point" class="profileInfo">` + pickupT + `</div></div>
-                   <div class="profile4">Driver Status<br><div id="status" class="profileInfo">` + statusT + `</div></div>
-                   <div class="profile5" onclick="profileEdit()">Edit Profile</div>
-           
+               </div>
+               
+               `;
+        }
+        else
+        {
+            mainContentDiv.innerHTML = `
+
+            <div class="backtop"></div>        
+            <div class="backheadpassreq">   Profile    </div>
+            <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div></a>
+            <div onclick="showMenu()" class="backbutton"></div></a>
+                
+            <div class="lele2"><h2></h2></div>    
+            <div class="backgroundkaos"></div>      
+            <div class="profileBilde"></div>
+            <div class="ProfileBoks">  
+        
+                    <div id="Navn" class="profileNavn">` + brukerNavnT + `</div>
+                    <div class="profile1">Phone Number<br><div id="nummer" class="profileInfo">` + phoneT + `</div></div>
+                    <div class="profile2">Email <br><div id="mail" class="profileInfo">` + emailT + `</div></div>
+                    <div class="profile3">Pick up Point <br><div id="point" class="profileInfo"></div></div>
+                    <div class="profile4">Driver Status<br><div id="status" class="profileInfo">` + statusT + `</div></div>
+                    <div class="profile5" onclick="profileEdit()">Edit Profile</div>
+            
            </div>
            
-           `;
+           `; 
+        }
+
     }
     else
     {

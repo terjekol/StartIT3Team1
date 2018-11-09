@@ -4,7 +4,7 @@ function showfrontPage() {
     mainContentDiv.innerHTML = `
 
     <div class="frontpage">
-        <div class="info" onclick="showInfoPage()">i</div>
+        <div class="showInfo" onclick="showInfo()">i</div>
 
         <img class="jotronlogo" src="img/Jotron_logo.jpg"><br>
         <div id=wrongpass></div>
@@ -21,8 +21,8 @@ function showfrontPage() {
             <button class="regi" onclick="profileCreate()">Registrer</button>
         </div>
 
-        <div class="userinfo" onclick="showUserInfo()">Privacy and Terms of Use</div>
-        <div class="info" onclick="showInfo"()</div>
+        
+        
 
     </div>
 
