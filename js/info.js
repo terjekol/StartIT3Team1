@@ -1,4 +1,4 @@
-function Info() {
+function showInfo() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
 
