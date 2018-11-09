@@ -5,10 +5,8 @@ function passenger() {
 
 <div class="backtop"></div>
     <div class="backheadpassreq">   Passenger    </div>
-    <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div></a >
-        <div onclick="showMenu()" class="backbutton"></div></a >
-            <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-            <a href="index.html"><div class="backbutton"></div></a>
+    <div onclick="showDriver()" class="backbuttonsymbol">&lt;&lt</div></a >
+        <div onclick="showDriver()" class="backbutton"></div></a >
             <link rel="stylesheet" type="text/css" href="css.css">
 
                 <div class="m1"></div>
