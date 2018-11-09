@@ -455,6 +455,7 @@ div.appointmentbox1, .appointmentbox2, .appointmentbox3, .appointmentbox4, .appo
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 5px;
+    cursor: pointer;
 }
 div.appointmentbox1 {
     margin-top: 14px;
