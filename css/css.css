@@ -1483,10 +1483,12 @@ div.sjaforforcontainer{
 }
 h1.sjaforfortest123, .sjaforfornavn2{
     font-size: 4vh;
+    color: black;
 }
 p.sjaforfortlfnumber1, .sjaforfortlfnumber2{
     font-size: 3vh;
     margin-top: -20px;
+    color: black;
 }
 #sjaforforavstand1, #sjaforforavstand2{
     font-size: 3vh;
