@@ -21,7 +21,7 @@ function showPassengerAppointment() {
     <div class="weeknext2"></div>
 
     <div class="colorexp"><b class="bcolor">Green</b> = Active appointment</div>
-        <button class="finddriver13" onclick="driverApp()">Find driver</button>
+        <button class="finddriver" onclick="driverApp()">Find driver</button>
 
  `;
 }
