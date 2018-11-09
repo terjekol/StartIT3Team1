@@ -21,7 +21,7 @@ function showDriver() {
 
     <div class="color11"><b class="color12">Red</b> = Cancelled appointments</div>
     <div class="color11"><b class="color18">green</b> = Active appointment</div>
-    <button class="finddriver13" onclick="passengerHistory()">Find passenger</button>
+    <button class="finddriver13" onclick="passenger()">Find passenger</button>
     
 
  `;
