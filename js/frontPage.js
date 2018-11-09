@@ -20,8 +20,8 @@ function showfrontPage() {
             <button class="login" onclick="dologInCheck()">Login</button><br>
             <button class="regi" onclick="profileCreate()">Registrer</button>
         </div>
-   <div class="info" 
-    <div class="showInfoPage" onclick="showInfoPage()">Privacy and Terms of Use</div>
+   
+    <div class="userinfo" onclick="showInfoPage()">Privacy and Terms of Use</div>
 
         
         
