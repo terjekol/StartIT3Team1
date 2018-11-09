@@ -890,56 +890,6 @@ div.d3 {
     margin-top: 5px;
     background-color: red;
 }
-div.weekback7 {
-    position: absolute;
-    z-index: 3;
-    top: 520px;
-    left: 45px;
-    font-size: 32px;
-    color: darkorange;
-    font-weight: bold;
-    letter-spacing: -6px;
-    user-select: none;
-    cursor: pointer;
-}
-div.weeknext8 {
-    position: absolute;
-    z-index: 3;
-    top: 520px;
-    right: 50px;
-    font-size: 32px;
-    color: darkorange;
-    font-weight: bold;
-    letter-spacing: -6px;
-    user-select: none;
-    cursor: pointer;
-}
-div.weekback9 {
-    background-color: white;
-    box-shadow: 0 0 5px black;
-    width: 40px;
-    height: 50px;
-    position: absolute;
-    z-index: 2;
-    top: 512px;
-    left: 40px;
-    border: groove 2px black;
-    border-radius: 20%;
-    cursor: pointer;
-}
-div.weeknext10 {
-    background-color: white;
-    box-shadow: 0 0 5px black;
-    width: 40px;
-    height: 50px;
-    position: absolute;
-    z-index: 2;
-    top: 512px;
-    right: 40px;
-    border: groove 2px black;
-    border-radius: 20%;
-    cursor: pointer;
-}
 div.color11 {
     margin-top: 10px;
     color: white;
@@ -958,7 +908,7 @@ button.finddriver13 {
     padding-bottom: 10px;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 4vh;
+    margin-top: 5vh;
     min-width: 300px;
 }
 div.backtop17 {
