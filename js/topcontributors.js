@@ -8,7 +8,7 @@ function showTopcontributors() {
     <div onclick="showTheHistory()" class="backbutton"></div>
     <div class="backheaddriverapp">History</div>
 
-   <div class="history1234">History</div>
+   
 
 
     
