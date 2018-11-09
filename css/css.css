@@ -1529,6 +1529,7 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
             margin-bottom: 7vh;
             align-content: center;
             text-align: center;
+            margin-top: 5vh;
             
         }
 
@@ -1628,8 +1629,8 @@ div.Drive {
         }
 div.bildet1234 {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     overflow: hidden;
     margin-left: auto;
     margin-right: 5px;
