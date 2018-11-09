@@ -13,7 +13,7 @@ function showTopcontributors() {
 
     
 
-    <div class="top1234">Top Contributors</div>
+    
 
 
     <br />
