@@ -14,14 +14,14 @@ function showDriver() {
     <div class="d5"> Thursday</div>
     <div class="d6"> Friday</div>
 
-    <div class="weekback7"> &lt&lt</div>
-    <div class="weeknext8"> &gt&gt</div>
-    <div class="weekback9"></div>
-    <div class="weeknext10"></div>
+    <div class="weekback"> &lt&lt</div>
+    <div class="weeknext"> &gt&gt</div>
+    <div class="weekback2"></div>
+    <div class="weeknext2"></div>
 
     <div class="color11"><b class="color12">Red</b> = Cancelled appointments</div>
     <div class="color11"><b class="color18">green</b> = Active appointment</div>
-    <button class="finddriver13" onclick="showPassengerAppointment()">Find passenger</button>
+    <button class="finddriver" onclick="showPassengerAppointment()">Find passenger</button>
     
 
  `;
