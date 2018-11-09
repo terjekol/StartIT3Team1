@@ -16,8 +16,8 @@ function profileEdit()
     
         <div class="backtop"></div>        
         <div class="backheadpassreq">   Profile    </div>
-        <a href="index.html"><div class="backbuttonsymbol">&lt;&lt</div></a>
-        <a href="index.html"><div class="backbutton"></div></a>
+        <div onclick="showProPage()" class="backbuttonsymbol">&lt;&lt</div></a>
+        <div onclick="showProPage()" class="backbutton"></div></a>       
         <div class="lele2"><h2></h2></div>    
         <div class="backgroundkaos"></div>      
         <div class="profileBilde"></div>
@@ -54,7 +54,7 @@ function saveP()
                 <div class="backheadpassreq">   Profile    </div>
                 <div onclick="showMenu()" class="backbuttonsymbol">&lt;&lt</div></a>
                 <div onclick="showMenu()" class="backbutton"></div></a>
-                       
+                                      
                    <div class="lele2"><h2></h2></div>    
                    <div class="backgroundkaos"></div>      
                    <div class="profileBilde"></div>
