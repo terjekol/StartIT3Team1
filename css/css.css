@@ -1603,7 +1603,7 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
                 
            
         }
-div.bildet {
+div.bildet111 {
     border-radius: 50%;
     width: 200px;
     height: 200px;
@@ -1612,17 +1612,17 @@ div.bildet {
     margin-right: 5px;
 }
 
-div.img {
+div.img111 {
     height: 200px;
 }
 
-div.driver1 {
+div.driver111 {
     color: gray;
     text-align: center;
     font-size: 36px;
 }
 
-div.navn {
+div.navn111 {
     text-align: center;
     font-size: 36px;
 }
