@@ -4,7 +4,7 @@ function showfrontPage() {
     mainContentDiv.innerHTML = `
 
     <div class="frontpage">
-        <div class="info" onclick="showInfo()">i</div>
+        <div class="showInfo" onclick="showInfo()">i</div>
 
         <img class="jotronlogo" src="img/Jotron_logo.jpg"><br>
         <div id=wrongpass></div>
