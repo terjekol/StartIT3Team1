@@ -76,7 +76,7 @@ function showTopcontributors() {
     <br />
     <div class="navn1234">Navn peter</div>
     <hr />
-</div>
+
 
 `;
 }
