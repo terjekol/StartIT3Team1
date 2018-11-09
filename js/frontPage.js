@@ -18,7 +18,7 @@ function showfrontPage() {
 
         <div class="b1">
             <button class="login" onclick="dologInCheck()">Login</button><br>
-            <button class="regi" onclick="showRegPage()">Registrer</button>
+            <button class="regi" onclick="profileCreate()">Registrer</button>
         </div>
 
         <div class="userinfo" onclick="showUserInfo()">Privacy and Terms of Use</div>
