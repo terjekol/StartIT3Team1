@@ -1603,6 +1603,66 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
                 
            
         }
+div.bildet {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+div.img {
+    height: 200px;
+}
+
+div.driver1 {
+    color: gray;
+    text-align: center;
+    font-size: 36px;
+}
+
+div.navn {
+    text-align: center;
+    font-size: 36px;
+}
+
+hr {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+
+#icon2222 {
+    float: left;
+    height: 44px;
+    margin-left: 6px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+div.history11 {
+    color: white;
+    background-clip: border-box;
+    background-color: #6fbab0;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+div.top12 {
+    color: white;
+    background-clip: border-box;
+    background-color: #002147;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+div.tophistory{
+    background-color: white;
+}
 
 
 
