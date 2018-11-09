@@ -105,19 +105,18 @@ div.showInfo {
     border-radius: 50%;
     text-align: center;
 }
-.info {
+div.info {
     font-size: 24px;
     border: 1px groove black;
     box-shadow: 0 0 3px black;
     text-shadow: 0 0 1px black;
-    position: absolute;    
+    position: absolute;
+    top: 5px;
     right: 5px;
     padding: 0px 10px 0 10px;
     background-color: white;
     border-radius: 50%;
     text-align: center;
-    margin-right: 36vh;
-    margin-top: 8vh;    
 }
 button:hover {
     -webkit-transform: scale(1.02);
@@ -1610,65 +1609,9 @@ div.sjaforforAvlys1, .sjaforforAvlys2{
                 vertical-align: middle;
             }
         div.drive-time {
-                padding-bottom: 2vh;
-                
-           
+                padding-bottom: 2vh;         
         }
-div.bildet111 {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: 5px;
-}
 
-#img 
-{
-    height: 200px;
-}
-
-div.driver111 {
-    color: gray;
-    text-align: center;
-    font-size: 36px;
-}
-
-div.navn1234 {
-    text-align: center;
-    font-size: 36px;
-}
-
-hr {
-    margin-right: 30%;
-    margin-left: 30%;
-}
-
-
-
-
-div.history1111 {
-    color: white;
-    background-clip: border-box;
-    background-color: #6fbab0;
-    font-size: 25px;
-    padding: 15px;
-    font-size: 25px;
-}
-
-div.top1234 {
-    color: white;
-    background-clip: border-box;
-    background-color: #002147;
-    font-size: 25px;
-    padding: 15px;
-    font-size: 25px;
-}
-
-
-div.tophistory1234{
-    background-color: white;
-}
 div.backheadpassreq {
             color: black;
             font-size: 34px;
@@ -1734,4 +1677,63 @@ div.Drive {
             min-width: 500px;
             max-width: 10vw;
         }
+div.bildet1234 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 5px;
+}
 
+div.img {
+    height: 200px;
+}
+
+div.driver1234 {
+    color: gray;
+    text-align: center;
+    font-size: 36px;
+}
+
+div.navn1234 {
+    text-align: center;
+    font-size: 36px;
+}
+
+hr {
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+
+#icon1234 {
+    float: left;
+    height: 44px;
+    margin-left: 6px;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+div.history1234 {
+    color: white;
+    background-clip: border-box;
+    background-color: #6fbab0;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+div.top1234 {
+    color: white;
+    background-clip: border-box;
+    background-color: #002147;
+    font-size: 25px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+
+div.tophistory1234{
+    background-color: white;
+}
