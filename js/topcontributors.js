@@ -1,7 +1,7 @@
 function showTopcontributors() {
     var mainContentDiv = document.getElementById('mainContent');
     mainContentDiv.innerHTML = `
-<div class="tophistory">
+<div class="tophistory222">
 
     <div onclick="showMenu()" class="backbuttonsymbol16"> <div class="home">
 
