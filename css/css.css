@@ -1493,6 +1493,7 @@ p.sjaforfortlfnumber1, .sjaforfortlfnumber2{
 #sjaforforavstand1, #sjaforforavstand2{
     font-size: 3vh;
     margin-bottom: 10vh;
+    color: black;
 }
 #sjaforforgooglemaps1, #sjaforforgooglemaps2{
     border: solid 1px black;
