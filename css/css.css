@@ -1690,3 +1690,33 @@ div.top1234 {
 div.tophistory1234{
     background-color: white;
 }
+#knappB, #knappA
+{
+        border: groove black 2px;
+        border-radius: 10px;
+        box-shadow: 0 0 5px black;
+        color: black;
+        font-size: 32px;
+        text-align: center;
+        margin-top: 45vh;
+        min-width: 170px;
+        max-width: 10vw;
+}
+#knappA{
+    background-color: green;
+    margin-left: 5vw;
+    clear: left;
+}
+#knappB{
+    background-color: red;
+    float: left;
+}
+div.sikker{
+    color: black;
+    margin-top:35vh;
+    position: absolute;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+    width: 100%;
+    text-align: center;    
+}
